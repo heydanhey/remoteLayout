@@ -12,7 +12,7 @@ const getConfig = (target) => ({
   devtool: "hidden-source-map",
   output: {
     path: path.resolve(__dirname, "dist", target),
-    publicPath: `https://619821c987d83f0a7c0832d9--sleepy-ride-c6740a.netlify.app/${target}/`,
+    publicPath: `https://sleepy-ride-c6740a.netlify.app/${target}/`,
     clean: true,
   },
   devServer: {
