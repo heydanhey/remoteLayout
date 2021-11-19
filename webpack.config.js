@@ -12,7 +12,7 @@ const getConfig = (target) => ({
   devtool: "hidden-source-map",
   output: {
     path: path.resolve(__dirname, "dist", target),
-    publicPath: `http://localhost:3002/${target}/`,
+    publicPath: `${process.env.URL || 'http://localhost:3002'}/${target}/`,
     clean: true,
   },
   devServer: {
