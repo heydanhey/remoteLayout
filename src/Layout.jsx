@@ -3,7 +3,7 @@ import React from "react"; //test
 const Layout = ({children}) => {
   return (
     <>
-      <h1>Header Make CHange</h1>
+      <h1>Header</h1>
         {children}
       <footer>footer</footer>
     </>
